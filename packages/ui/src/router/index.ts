@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router';
-import Lobby from '@/pages/lobby/Lobby.vue';
+import Lobby from '../pages/lobby/Lobby.vue';
 
 const routes: Array<RouteRecordRaw> = [
   {

@@ -1,9 +1,9 @@
 import 'material-design-icons-iconfont/dist/material-design-icons.css';
 
 import { createApp } from 'vue';
-import App from '@/App.vue';
-import router from '@/router';
-import { store, key } from '@/store';
+import App from '../src/App.vue';
+import router from '../src/router';
+import { store, key } from '../src/store';
 
 import 'vuetify/styles';
 import { createVuetify } from 'vuetify';
