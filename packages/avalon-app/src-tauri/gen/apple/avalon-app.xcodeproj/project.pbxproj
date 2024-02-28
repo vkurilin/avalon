@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2180896690FB103C31DCBEBE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222019789196A106AFC9D5C2 /* CoreGraphics.framework */; };
+		61ED779FB15E33B46B2643E3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BB419D690F8150AFD7B905 /* QuartzCore.framework */; };
+		7CC871C2AD9831E2B7829B57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3E515DE2BD40E06FA444C0D /* Assets.xcassets */; };
+		920B18BA47482D4313299463 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 292F97DC91C031265DBD7008 /* Security.framework */; };
+		A7D66D1A8320949D7CF0331E /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9772A3F1291D66A1CD8FB0C /* MetalKit.framework */; };
+		B6827FEFFA996F1BB1F3FB22 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = FA6DB43756B0BD5B8D12D667 /* main.mm */; };
+		C472F9E0334CB56918F3AA12 /* libavalon_app_lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 141DEA0E3826B0AF468C0C35 /* libavalon_app_lib.a */; };
+		E81099B8AAAB122D64679944 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B26B68E6E5D1BA810BB53F25 /* UIKit.framework */; };
+		EA3D4F2E9B6622E6BA03F818 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87C46FC758F1EDAC2DF75B32 /* WebKit.framework */; };
+		F2779A8D1119D7CD564458EC /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 7AF6214FF664EB8463F21B62 /* assets */; };
+		F37C3622B5B4F41D03F68499 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59BF119A318D74D58D229E3F /* Metal.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		073589C15F76CC1EDB0256B0 /* lib.rs */ = {isa = PBXFileReference; path = lib.rs; sourceTree = "<group>"; };
+		10E26B3888027C8FE6F49183 /* avalon-app_iOS.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = "avalon-app_iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		141DEA0E3826B0AF468C0C35 /* libavalon_app_lib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavalon_app_lib.a; sourceTree = "<group>"; };
+		222019789196A106AFC9D5C2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		292F97DC91C031265DBD7008 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3FAE1005C2B9C77BD889EBB2 /* avalon-app_iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "avalon-app_iOS.entitlements"; sourceTree = "<group>"; };
+		59BF119A318D74D58D229E3F /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		721658758ACA7D1F818CAD54 /* bindings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bindings.h; sourceTree = "<group>"; };
+		7AF6214FF664EB8463F21B62 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = SOURCE_ROOT; };
+		87C46FC758F1EDAC2DF75B32 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		B26B68E6E5D1BA810BB53F25 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B3E515DE2BD40E06FA444C0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9772A3F1291D66A1CD8FB0C /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
+		BC6E93C4DB6CE2F4C1373483 /* main.rs */ = {isa = PBXFileReference; path = main.rs; sourceTree = "<group>"; };
+		C31303FD6EFEFD97E985235D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F9BB419D690F8150AFD7B905 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FA6DB43756B0BD5B8D12D667 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFD3F9D1FC5C5D5413BE234E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C472F9E0334CB56918F3AA12 /* libavalon_app_lib.a in Frameworks */,
+				2180896690FB103C31DCBEBE /* CoreGraphics.framework in Frameworks */,
+				F37C3622B5B4F41D03F68499 /* Metal.framework in Frameworks */,
+				A7D66D1A8320949D7CF0331E /* MetalKit.framework in Frameworks */,
+				61ED779FB15E33B46B2643E3 /* QuartzCore.framework in Frameworks */,
+				920B18BA47482D4313299463 /* Security.framework in Frameworks */,
+				E81099B8AAAB122D64679944 /* UIKit.framework in Frameworks */,
+				EA3D4F2E9B6622E6BA03F818 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B9CDCDA45403C1F7DA765B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10E26B3888027C8FE6F49183 /* avalon-app_iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60DC0ED1CD25939E4CFCF2D3 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				073589C15F76CC1EDB0256B0 /* lib.rs */,
+				BC6E93C4DB6CE2F4C1373483 /* main.rs */,
+			);
+			name = src;
+			path = ../../src;
+			sourceTree = "<group>";
+		};
+		9C55A582960D7D0757C4545E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				222019789196A106AFC9D5C2 /* CoreGraphics.framework */,
+				141DEA0E3826B0AF468C0C35 /* libavalon_app_lib.a */,
+				59BF119A318D74D58D229E3F /* Metal.framework */,
+				B9772A3F1291D66A1CD8FB0C /* MetalKit.framework */,
+				F9BB419D690F8150AFD7B905 /* QuartzCore.framework */,
+				292F97DC91C031265DBD7008 /* Security.framework */,
+				B26B68E6E5D1BA810BB53F25 /* UIKit.framework */,
+				87C46FC758F1EDAC2DF75B32 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B76ADB04178B194ED77BF4E6 = {
+			isa = PBXGroup;
+			children = (
+				7AF6214FF664EB8463F21B62 /* assets */,
+				B3E515DE2BD40E06FA444C0D /* Assets.xcassets */,
+				E1EAF99FF9281ED840A9F35C /* avalon-app_iOS */,
+				E9ED067EBC63A53AF4759AAA /* Externals */,
+				E800A38AF30789A5502A2D2C /* Sources */,
+				60DC0ED1CD25939E4CFCF2D3 /* src */,
+				9C55A582960D7D0757C4545E /* Frameworks */,
+				3B9CDCDA45403C1F7DA765B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA697B4F361F02B7B4916D52 /* bindings */ = {
+			isa = PBXGroup;
+			children = (
+				721658758ACA7D1F818CAD54 /* bindings.h */,
+			);
+			path = bindings;
+			sourceTree = "<group>";
+		};
+		E1EAF99FF9281ED840A9F35C /* avalon-app_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3FAE1005C2B9C77BD889EBB2 /* avalon-app_iOS.entitlements */,
+				C31303FD6EFEFD97E985235D /* Info.plist */,
+			);
+			path = "avalon-app_iOS";
+			sourceTree = "<group>";
+		};
+		E800A38AF30789A5502A2D2C /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F1E909A8F83786E18F8C304B /* avalon-app */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		E9ED067EBC63A53AF4759AAA /* Externals */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Externals;
+			sourceTree = "<group>";
+		};
+		F1E909A8F83786E18F8C304B /* avalon-app */ = {
+			isa = PBXGroup;
+			children = (
+				FA6DB43756B0BD5B8D12D667 /* main.mm */,
+				BA697B4F361F02B7B4916D52 /* bindings */,
+			);
+			path = "avalon-app";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2161E93615E880633150D7F4 /* avalon-app_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D217318923C6655D932E344E /* Build configuration list for PBXNativeTarget "avalon-app_iOS" */;
+			buildPhases = (
+				EF73AA49ED5F7F7C60B6E7ED /* Build Rust Code */,
+				0C03D7397BD067DBC8D1DB87 /* Sources */,
+				CBCF961BE03F726D10C8DB64 /* Resources */,
+				DFD3F9D1FC5C5D5413BE234E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "avalon-app_iOS";
+			productName = "avalon-app_iOS";
+			productReference = 10E26B3888027C8FE6F49183 /* avalon-app_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FBA744195E3BF77CFC151D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = A26DD7ABCF41433D0CF2D252 /* Build configuration list for PBXProject "avalon-app" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = B76ADB04178B194ED77BF4E6;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2161E93615E880633150D7F4 /* avalon-app_iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBCF961BE03F726D10C8DB64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC871C2AD9831E2B7829B57 /* Assets.xcassets in Resources */,
+				F2779A8D1119D7CD564458EC /* assets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EF73AA49ED5F7F7C60B6E7ED /* Build Rust Code */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Build Rust Code";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(SRCROOT)/target/aarch64-apple-ios/${CONFIGURATION}/deps/libavalon_app_lib.a",
+				"$(SRCROOT)/target/x86_64-apple-ios/${CONFIGURATION}/deps/libavalon_app_lib.a",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "npm run tauri -- ios xcode-script -v --platform ${PLATFORM_DISPLAY_NAME:?} --sdk-root ${SDKROOT:?} --framework-search-paths \"${FRAMEWORK_SEARCH_PATHS:?}\" --header-search-paths \"${HEADER_SEARCH_PATHS:?}\" --gcc-preprocessor-definitions \"${GCC_PREPROCESSOR_DEFINITIONS:-}\" --configuration ${CONFIGURATION:?} ${FORCE_COLOR} ${ARCHS:?}";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C03D7397BD067DBC8D1DB87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6827FEFFA996F1BB1F3FB22 /* main.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4CE84A861E5F5BF5AE221F64 /* debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = debug;
+		};
+		92DA3CEC067BF644800A6500 /* release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = release;
+		};
+		E442D975C0B59DC7382BE8D7 /* release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ARCHS = (
+					arm64,
+					"arm64-sim",
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "avalon-app_iOS/avalon-app_iOS.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "arm64-sim x86_64";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\".\"",
+				);
+				INFOPLIST_FILE = "avalon-app_iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				"LIBRARY_SEARCH_PATHS[arch=arm64-sim]" = "$(inherited) $(PROJECT_DIR)/Externals/arm64-sim/$(CONFIGURATION) $(SDKROOT)/usr/lib/swift $(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME) $(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)";
+				"LIBRARY_SEARCH_PATHS[arch=arm64]" = "$(inherited) $(PROJECT_DIR)/Externals/arm64/$(CONFIGURATION) $(SDKROOT)/usr/lib/swift $(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME) $(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)";
+				"LIBRARY_SEARCH_PATHS[arch=x86_64]" = "$(inherited) $(PROJECT_DIR)/Externals/x86_64/$(CONFIGURATION) $(SDKROOT)/usr/lib/swift $(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME) $(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tauri.avalon-app";
+				PRODUCT_NAME = "avalon-app";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64  arm64-sim";
+			};
+			name = release;
+		};
+		F88988AC8C7E564916FC13A1 /* debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ARCHS = (
+					arm64,
+					"arm64-sim",
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "avalon-app_iOS/avalon-app_iOS.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "arm64-sim x86_64";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\".\"",
+				);
+				INFOPLIST_FILE = "avalon-app_iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				"LIBRARY_SEARCH_PATHS[arch=arm64-sim]" = "$(inherited) $(PROJECT_DIR)/Externals/arm64-sim/$(CONFIGURATION) $(SDKROOT)/usr/lib/swift $(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME) $(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)";
+				"LIBRARY_SEARCH_PATHS[arch=arm64]" = "$(inherited) $(PROJECT_DIR)/Externals/arm64/$(CONFIGURATION) $(SDKROOT)/usr/lib/swift $(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME) $(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)";
+				"LIBRARY_SEARCH_PATHS[arch=x86_64]" = "$(inherited) $(PROJECT_DIR)/Externals/x86_64/$(CONFIGURATION) $(SDKROOT)/usr/lib/swift $(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME) $(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tauri.avalon-app";
+				PRODUCT_NAME = "avalon-app";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64  arm64-sim";
+			};
+			name = debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A26DD7ABCF41433D0CF2D252 /* Build configuration list for PBXProject "avalon-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CE84A861E5F5BF5AE221F64 /* debug */,
+				92DA3CEC067BF644800A6500 /* release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = debug;
+		};
+		D217318923C6655D932E344E /* Build configuration list for PBXNativeTarget "avalon-app_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F88988AC8C7E564916FC13A1 /* debug */,
+				E442D975C0B59DC7382BE8D7 /* release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FBA744195E3BF77CFC151D6 /* Project object */;
+}
